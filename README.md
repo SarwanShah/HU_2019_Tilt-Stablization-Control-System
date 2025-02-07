@@ -17,7 +17,6 @@ This project was developed as part of the **Principles of Feedback Control Lab**
 - **Disturbance Rejection**: The system rejects disturbances introduced in various orientations.
 - **MATLAB Model Simulation**: Validation of system response through **transfer function modeling**.
 - **Real-Time System Performance**: Verification and visualization of system behavior with actual disturbances.
-- **Proportional Control**: Implementation of a **P-controller** using **Arduino** and **L298 motor driver**.
 - **Feedback Sensor Integration**: Utilizes the **MPU6050** gyroscopic sensor for continuous angle feedback.
 
 ## 🏗 Implementation Details  
