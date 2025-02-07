@@ -3,7 +3,7 @@
 ## 📌 Project Overview  
 This project was developed as part of the **Principles of Feedback Control Lab** course. The aim was to demonstrate **angular position control** of a surface along two Cartesian axes. The system rejects disturbances such as additional weight on the controlled surface and changes in the orientation of its mounting structure. The tilt stabilization technique can have applications ranging from **gimbal-based camera stabilization** to **aeronautical equipment**.
 
-**REPORT: [Final Report](./Final-Report.docx)**
+**REPORT: https://github.com/SarwanShah/HU_2019_Tilt-Stablization-Control-System/blob/main/Final-Report.pdf**
 
 **VIDEO DEMONSTRATION:**
 
