@@ -5,6 +5,13 @@ This project was developed as part of the **Principles of Feedback Control Lab**
 
 **REPORT: [Final Report](./Final-Report.docx)**
 
+**VIDEO DEMONSTRATION:**
+
+<a href="https://www.youtube.com/watch?v=KZVrodOSyYc" target="_blank">
+    <img src="https://img.youtube.com/vi/KZVrodOSyYc/maxresdefault.jpg" alt="Watch the video" width="400">
+</a>
+
+
 ## 🛠 Project Features  
 - **Dual-Axis Control**: Independent control systems for both X and Y axes.
 - **Disturbance Rejection**: The system rejects disturbances introduced in various orientations.
