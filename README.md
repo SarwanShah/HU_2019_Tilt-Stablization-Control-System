@@ -1,6 +1,6 @@
 # Tilt Stabilization System
 
-## 📌 Project Overview  
+## Project Overview  
 This project was developed as part of the **EE-361 Principles of Feedback Control Lab** course during Fall 2019. The aim was to demonstrate **angular position control** of a surface along two Cartesian axes. The system rejects disturbances such as additional weight on the controlled surface and changes in the orientation of its mounting structure. The tilt stabilization technique can have applications ranging from **gimbal-based camera stabilization** to **aeronautical equipment**.
 
 **REPORT: https://github.com/SarwanShah/HU_2019_Tilt-Stablization-Control-System/blob/main/Final-Report.pdf**
@@ -12,14 +12,14 @@ This project was developed as part of the **EE-361 Principles of Feedback Contro
 </a>
 
 
-## 🛠 Project Features  
+## Project Features  
 - **Dual-Axis Control**: Independent control systems for both X and Y axes.
 - **Disturbance Rejection**: The system rejects disturbances introduced in various orientations.
 - **MATLAB Model Simulation**: Validation of system response through **transfer function modeling**.
 - **Real-Time System Performance**: Verification and visualization of system behavior with actual disturbances.
 - **Feedback Sensor Integration**: Utilizes the **MPU6050** gyroscopic sensor for continuous angle feedback.
 
-## 🏗 Implementation Details  
+## Implementation Details  
 
 ### ➤ **System Design**  
 - A **square-shaped structure** with two internal frames (inner and outer) allows free rotation along the X and Y axes.
@@ -36,7 +36,7 @@ This project was developed as part of the **EE-361 Principles of Feedback Contro
 - **MPU6050 gyroscopic sensor**: Provides real-time feedback for error correction.
 - **Complementary Filter**: Combines accelerometer and gyroscopic data to minimize drift and steady-state errors.
 
-## ⚙ Components Used  
+## Components Used  
 | Component              | Description                           |
 |------------------------|---------------------------------------|
 | **Arduino**            | Microcontroller for control logic     |
@@ -45,7 +45,7 @@ This project was developed as part of the **EE-361 Principles of Feedback Contro
 | **24V DC Motors**      | Provides rotational motion            |
 | **Bearings**           | Reduces friction for smoother movement|
 
-## 🧪 Results and Validation  
+## Results and Validation  
 
 ### Experimental Model Simulation  
 The system model was simulated in MATLAB to validate its response to angular disturbances. Key response parameters include:
@@ -56,13 +56,5 @@ The system model was simulated in MATLAB to validate its response to angular dis
 The system's real-time response was captured and plotted. It successfully rejected angular disturbances with:
 - **Settling Time**: Approximately 2-4 seconds  
 - **Steady-State Accuracy**: Minimal steady-state error along the X-axis, with minor discrepancies along the Y-axis.
-
-## 📥 How to Use  
-1. Assemble the system as per the provided design.
-2. Upload the **Arduino code** (included in the repository) to the microcontroller.
-3. Apply angular disturbances to test system stability.
-4. Observe and record system responses using **MATLAB** or other tools.
-
----
 
 This project provided hands-on experience in **control systems, sensor integration, and proportional control design**. It successfully met its objectives and demonstrated practical applications of angular stabilization techniques.
